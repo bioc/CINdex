@@ -3,7 +3,7 @@
 # list-as-matrix format
 #' @import GenomicRanges
 #' @import S4Vectors
-#' @import GenomeInfoDb
+#' @import Seqinfo
 #' @import IRanges
 # @param grl Segment copy number information in the form of a GRangesList object
 # @return Segment copy number information in list-as-a-matrix format

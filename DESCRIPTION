@@ -1,6 +1,6 @@
 Package: CINdex
 Title: Chromosome Instability Index
-Version: 1.37.1
+Version: 1.37.2
 Authors@R: c(
     person(given ="Lei", family ="Song", , email ="polosong@gmail.com", role = c("aut"),comment="Innovation Center for Biomedical Informatics, Georgetown University Medical Center"),
     person(given ="Krithika", family ="Bhuvaneshwar", , email ="kb472@georgetown.edu", role = c("aut"),comment="Innovation Center for Biomedical Informatics, Georgetown University Medical Center"),
@@ -22,7 +22,7 @@ License: GPL (>= 2)
 LazyData: true
 Imports: bitops,gplots,grDevices,som,
         dplyr,gridExtra,png,stringr,S4Vectors, IRanges,
-        GenomeInfoDb,graphics, stats, utils
+        Seqinfo,graphics, stats, utils
 biocViews: Software, CopyNumberVariation, GenomicVariation, aCGH,
         Microarray, Genetics, Sequencing
 Suggests: knitr, testthat, ReactomePA, RUnit, BiocGenerics,
@@ -31,11 +31,5 @@ Suggests: knitr, testthat, ReactomePA, RUnit, BiocGenerics,
         Biostrings,Homo.sapiens, R.utils
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2020-10-27 22:14:28 UTC; biocbuild
 RoxygenNote: 7.1.1
-git_url: https://git.bioconductor.org/packages/CINdex
-git_branch: master
-git_last_commit: ce318c2
-git_last_commit_date: 2020-10-27
-Date/Publication: 2020-10-27
 PackageStatus: Deprecated
